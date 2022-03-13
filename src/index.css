@@ -1,13 +1,18 @@
-body {
+body, ul, li {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  list-style: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.del-btn {
+  color: red;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.title {
+  display: inline-block;
+  margin: 5px 10px 0;
 }
